@@ -194,6 +194,6 @@ void GcodeSuite::M114() {
     }
   #endif
 
-  //planner.synchronize();
+  //planner.synchronize(); //freeze movement head
   report_current_position();
 }
