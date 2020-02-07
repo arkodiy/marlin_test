@@ -194,6 +194,6 @@ void GcodeSuite::M114() {
     }
   #endif
 
-  planner.synchronize();
+  //planner.synchronize();
   report_current_position();
 }
